@@ -442,7 +442,7 @@ class MPU9250{
 		void      calibrateGyro                 (      float     *gyroBiasOut            = NULL);
 		void      calibrateMag                  (      float     *mag_bias,
 		                                               float     *mag_scale,
-													   int16_t   *mag_bias_raw           = NULL);
+		                                               int16_t   *mag_bias_raw           = NULL);
 
 /*------------------------------------------------------- FIFO -------------------------------------------------------*/
 
